@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+<h1>Sensor Data Plotting</h1>
+<div class="row" style="padding:10px 10px 10px 10px;">
+<div class="jumbotron" style="height:600px;margin-left:20px;margin-right:20px;border-radius:20px;width:1000px;">
+    <p>MOISTURE SENSOR </p>
+    <hr>
+    <label>Please Select the date:-</label><input type = "date"  id="demo">
+    <button class="btn btn-success" type="button" onclick="myFunction()">Plot data</button>
+    <br><br>
+    <div id="chartContainer"></div>
+</div>
+
+<div class="jumbotron" style="height:600px;margin-left:20px;margin-right:20px;border-radius:20px;width:1000px">
+    <p>VIBRATION SENSOR </p>
+    <hr>
+    <label>Please Select the date:-</label><input type = "date"  id="demo2">
+    <button class="btn btn-success" type="button" onclick="myFunction2()">Plot data</button>
+    <br><br>
+    <div id="chartContainer2"></div>
+</div>
+</div>
+
+</body>
+</html>
